@@ -98,8 +98,6 @@ header{
 
     transition: background-color .2s linear;
     background-color: var(--color-secondary);
-    color: var(--color-white);
-
     
 }
 
