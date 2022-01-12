@@ -7,13 +7,38 @@
 :root {
 	font-size: 62.5%;
 
-	--color-primary: #111112;
+	--color-primary: rgba(17,17,18,1);
+	--color-primary-light:rgba(27,27,28,1);
+	--color-logo-black: #000000;
 	--color-secondary: #2f9e41;
 	--color-tertiary: #cd191e;
 	--color-gray: #e3e3e3;
 	--color-white: #f9f9f9;
+	
+
 }
 
 body {
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+
+.page-content {
+	background-color: var(--color-primary);
+}
+
+.page-content .titles{
+	color: var(--color-white);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.titles h1{
+	width: 85%;
+	padding-top: 3rem;
+	font-size: 2.5rem;
 }

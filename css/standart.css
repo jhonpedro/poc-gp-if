@@ -1,0 +1,44 @@
+.apresentation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        background-image: radial-gradient(circle at 110% -110%,var(--color-secondary) 0%,var(--color-white) 92%,var(--color-white) 92%,var(--color-tertiary) 100%);
+    
+}
+
+.apresentation-content{
+    width: 75%;
+    padding: 2rem;
+    margin: 7rem 0;
+}
+
+.apresentation-img{
+
+    height: 20rem ;  
+   
+}
+
+
+.apresentation-img img{
+    height: 100%;
+}
+
+.apresentation-text {
+
+    margin-top: 1rem;
+}
+
+
+.apresentation-text h2{
+    font-size: 4rem;
+    line-height: 5rem;
+    color: var(--color-primary);
+}
+
+.apresentation-text p{
+    
+    font-size: 1.4rem;
+    font-weight: 200;
+}
